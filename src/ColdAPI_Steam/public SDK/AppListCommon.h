@@ -33,7 +33,7 @@ struct SteamAppInstalled_t
 struct SteamAppUninstalled_t
 {
 	enum { k_iCallback = k_iSteamAppListCallbacks + 2 };
-	AppId_t m_nAppID;			// ID of the app that installs
+	AppId_t m_nAppID;			// ID of the app that uninstalls
 };
 
 #pragma pack( pop )
